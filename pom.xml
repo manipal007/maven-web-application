@@ -16,7 +16,7 @@
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
-	</properties>
+	<properties>
 		<jdk.version>11.0.17</jdk.version>
                 <spring.version>5.1.2.RELEASE</spring.version>
                 <junit.version>4.11</junit.version>
