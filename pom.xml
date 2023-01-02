@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>	
-		<sonar.host.url>http://172.31.39.241:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.44.226:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.login>squ_ed7e2bbb41b50ae74308a149471b4e7b55b613c4</sonar.login>
+		<sonar.login>squ_1b31270c5dcc91336cbb9af8f5dda57a22d23dff</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://65.2.131.106:8081/repository/maven-web-application-release/</url>
+	      <url>http://65.0.204.220:8081/repository/mavenweapp_rel/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://65.2.131.106:8081/repository/maven-we-application/</url>      
+	      <url>http://65.0.204.220:8081/repository/mavenwebapp_snap/</url>      
 	    </snapshotRepository>
 	    
 	</distributionManagement>
