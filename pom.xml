@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0</version>
+	<version>1.0.0SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -28,7 +28,15 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
-
+	
+	<repositories>
+	     <repository>
+	         <id>nexus</id>
+	         <name>Mithun Technologies Releases Nexus Repository</name>
+	         <url>http://15.207.84.241:8081/repository/mavenwebapp_snap/</url>
+	     </repository>
+	 </repositories >
+	
 	<dependencies>
 		
 		<dependency>
@@ -93,13 +101,7 @@
 		
 	</dependencies>
 	
-	<repositories>
-	     <repository>
-	         <id>nexus</id>
-	         <name>Mithun Technologies Releases Nexus Repository</name>
-	         <url>http://15.207.84.241:8081/repository/mavenwebapp_snap/</url>
-	     </repository>
-	 </repositories >
+	
 	
 	<distributionManagement>
 	
