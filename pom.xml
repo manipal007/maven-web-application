@@ -31,9 +31,9 @@
 	
 	<repositories>
 	     <repository>
-	         <id>nexus</id>
-	         <name>Mithun Technologies Releases Nexus Repository</name>
-	         <url>http://13.233.25.184:8081/repository/maven-web-app_FS_snap/</url>
+	         <id>admin</id>
+	         <name>admin</name>
+	         <url>http://65.1.182.249:8081/repository/maven-web-app_FS_snap/</url>
 	     </repository>
 	 </repositories >
 	
@@ -108,13 +108,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.25.184:8081/repository/maven-web-app_FS_rel/</url>
+	      <url>http://65.1.182.249:8081/repository/maven-web-app_FS_rel/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.25.184:8081/repository/maven-web-app_FS_snap/</url>    
+	      <url>http://65.1.182.249:8081/repository/maven-web-app_FS_snap/</url>    
 	    </snapshotRepository>
 	    
 	</distributionManagement>
