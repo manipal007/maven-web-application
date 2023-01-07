@@ -29,13 +29,7 @@
 
 	</properties>
 	
-	<repositories>
-	     <repository>
-	         <id>admin</id>
-	         <name>admin</name>
-	         <url>http://65.1.182.249:8081/repository/maven-web-app_FS_snap/</url>
-	     </repository>
-	 </repositories >
+	
 	
 	<dependencies>
 		
@@ -113,7 +107,7 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <name>mani </name>
 	      <url>http://65.1.182.249:8081/repository/maven-web-app_FS_snap/</url>    
 	    </snapshotRepository>
 	    
