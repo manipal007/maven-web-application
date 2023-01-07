@@ -101,13 +101,13 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <name>mani</name>
 	      <url>http://65.1.182.249:8081/repository/maven-web-app_FS_rel/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>mani </name>
+	      <name>mani</name>
 	      <url>http://65.1.182.249:8081/repository/maven-web-app_FS_snap/</url>    
 	    </snapshotRepository>
 	    
